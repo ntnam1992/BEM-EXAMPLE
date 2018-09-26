@@ -55,13 +55,14 @@ table {
 }
 .title{
 	color:#F00;
+	padding-bottom: 20px;
 }
-.list-number{
+.menu{
 	padding-left:40%;
 	list-style-type:none;
 	margin:0 auto;
 }
-.list-number__li{
+.menu__nav{
 	display:block;
 	float:left;	
 	width:50px;
@@ -69,22 +70,27 @@ table {
 	text-align:center;
 	padding: 5px 5px 0px;
 }
-.list-number__li:hover{
+.menu__nav--link{
+	text-decoration: none;
+	color: #000000;
+}
+.menu__nav:hover{
 	font-weight:bold;
 	background:#ffc7c7;
 }
-.list-number__li--active{
+.menu__nav--active{
 	font-weight:bold;
 	background:#ffc7c7;
 }
 .item{
-	width:250px;
-	height:200px;
-	background-color:#f8f7f4;
-	border: 1px solid #d9d2c3;
-	float:left;
-	margin-left:40%;
-	font-size:12px;
+	  width: 250px;
+    /* height: 200px; */
+    background-color: #f8f7f4;
+    border: 1px solid #d9d2c3;
+    /* float: left; */
+    /* margin-left: 40%; */
+    font-size: 12px;
+    margin: 0 auto;
 }
 .list-item{
 	list-style-type:none;
